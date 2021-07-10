@@ -1,0 +1,56 @@
+.header {
+    width: $width100;
+    height: 75px;
+    background: $background1;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        background: $background1;
+    }
+    &__left {
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 111px;
+        height: 38px;
+        background: $background1;
+    }
+    &__right {
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 168px;
+        height: 38px;
+        background: $background1;
+        margin-right: 50px;
+    }
+    &__logo {
+        width: 44px;
+        height: 38px;
+        background: $background1;
+    }
+    &__logo__padding__left {
+        padding-right: 41px;
+    }
+    &__logo__padding__right {
+        padding-right: 33px;
+    }
+    &__basket {
+        position: relative;
+        width: 32px;
+        height: 29px;
+        background: $background1;
+    }
+    &__count {
+        position: absolute;
+        display: flex;
+        right: -30px;
+        top: -10px;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        background: $decor1;
+        border-radius: 50%;
+    }
+}
